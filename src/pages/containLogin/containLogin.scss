@@ -1,0 +1,63 @@
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+}
+
+.imgBackground {
+	background-color: violet;
+}
+
+.imgBackground1 {
+	background-image: url('../../img/graphic-01.jpg');
+	height: 100vh !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.imgBackground2 {
+	height: 100vh !important;
+	background-image: url('../../img/graphic-02.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.imgBackground3 {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh !important;
+	background-image: url('../../img/graphic-03.jpg');
+}
+
+.loginForm {
+	padding-left: 30px;
+	align-items: center;
+	justify-content: center;
+	padding-right: 30px;
+}
+
+.Title {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 30px;
+	font-size: 18px;
+}
+.imgLogo {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	align-self: center;
+	width: '100%';
+	height: 50px;
+	background-image: url('../../img/logo.png');
+}
+.inputForm {
+	margin-top: 30px;
+}
